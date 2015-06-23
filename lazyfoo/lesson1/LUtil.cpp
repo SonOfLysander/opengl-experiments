@@ -17,7 +17,7 @@ bool initGL()
 		printf("Error initializing OpenFL %s\n", gluErrorString(error));
 		return false;
 	}
-	return true;
+	return true;
 }
 
 void update()
@@ -39,4 +39,14 @@ void render()
 	glEnd();
 	// Update screen
 	glutSwapBuffers();
+}
+
+void runMainLoop(int val)
+{
+	// Frame logic
+	update();
+	render();
+
+	// Run frame one more time
+	glutTimerFunc(1000 / SCREEN_FPS, runMainLoop, val);
 }

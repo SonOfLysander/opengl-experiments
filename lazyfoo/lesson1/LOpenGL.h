@@ -4,6 +4,6 @@
 #include <GL/freeglut.h>
 #include <GL/gl.h>
 #include <GL/glu.h>
-#include <studio.h>
+#include <stdio.h>
 
 #endif
