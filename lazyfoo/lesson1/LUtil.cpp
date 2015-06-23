@@ -19,3 +19,24 @@ bool initGL()
 	}
 	return true;
 }
+
+void update()
+{
+	// Empty. We're only drawing a quad. There is no animation.
+}
+
+void render()
+{
+	// Clear color buffer
+	glClear(GL_COLOR_BUFFER_BIT);
+	// Render the quad
+	glBegin(GL_QUADS);
+	float halfLength = 0.5f;
+	glVertex2f(-halfLength, -halfLength);
+	glVertex2f(halfLength, -halfLength);
+	glVertex2f(halfLength, halfLength);
+	glVertex2f(-halfLength, halfLength);
+	glEnd();
+	// Update screen
+	glutSwapBuffers();
+}
