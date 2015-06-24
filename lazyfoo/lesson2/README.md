@@ -1,1 +1,1 @@
-http://lazyfoo.net/tutorials/OpenGL/01_hello_opengl/index2.php
+http://lazyfoo.net/tutorials/OpenGL/02_matrices_and_coloring_polygons/index.php
