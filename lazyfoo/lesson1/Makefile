@@ -8,7 +8,7 @@ COMPILER_FLAGS = -w
 #LINKER_FLAGS specifies the libraries we're linking against
 LINKER_FLAGS = -lGL -lGLU -lglut
 #Output directory
-TARGETDIR = bin
+TARGETDIR = ./bin
 #OBJ_NAME specifies the name of our exectuable
 OBJ_NAME = $(TARGETDIR)/application.bin
 
