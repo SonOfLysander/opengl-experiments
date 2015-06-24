@@ -1,3 +1,5 @@
+#include "LUtil.h"
+
 bool initGL()
 {
 	// Initialize Projection Matrix
