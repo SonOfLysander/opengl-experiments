@@ -41,7 +41,7 @@ void render()
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	// Move to center of screen
-	glTranslate(SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f, 0.f);
+	glTranslatef(SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f, 0.f);
 	// Render quad
 	if (gColorMode == COLOR_MODE_CYAN)
 	{
