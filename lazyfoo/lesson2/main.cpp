@@ -28,6 +28,9 @@ int main(int argc, char* args[])
 		return 1;
 	}
 
+	// Set keyboard handler
+	glutKeyboardFunc(handleKeys);
+
 	// Set render function. #NOTE TO SELF: I think this is a C++ function pointer. I need to double check that, though.
 	glutDisplayFunc(render);
 
